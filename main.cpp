@@ -249,7 +249,6 @@ ALS(std::complex<double>* tensor, std::complex<double>** matrices, int N, int ra
 
 
 
-
 void
 create_ALS_tensor(std::complex<double>** matrices, int rank, int N, int* razm, std::complex<double>* tensor, int length, double right_side_norm)
 {
